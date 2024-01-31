@@ -1,14 +1,14 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Nextjs Portfolio Website",
+    description:
+      "Crafting a dynamic and interactive portfolio website using Next.js to showcase my skills, projects, and expertise in a seamless and engaging manner.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,48 +16,52 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Lanita Construction pvt. Ltd.",
+    description:
+      "Proudly collaborated with Lanita Construction Pvt. Ltd., showcasing our commitment to excellence through successful project.",
+    image: "/images/projects/4.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://lanitaconstruction.com/",
+    previewUrl: "https://lanitaconstruction.com/",
+  },
+  {
+    id: 4,
+    title: "Hotel Bookin App",
+    description:
+      "Experience seamless travel planning with our hotel booking app, meticulously crafted using React.js for a dynamic frontend, Node.js for robust backend functionalities, and MongoDB for efficient data management. Elevate your journey with user-friendly design and real-time booking capabilities",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/abhishekkbxr/booking-app.git",
+    previewUrl: "https://booking-mu-two.vercel.app",
   },
   {
     id: 3,
     title: "E-commerce Application",
-    description: "Project 3 description",
+    description:
+      "Developed a cutting-edge E-commerce App, Used Technologies are Next.js and Tailwind CSS, our app offers a visually stunning and user-friendly interface. Seamless transactions are ensured through the integration of the Razorpay payment gateway",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/abhishekkbxr/ecommerce.git",
+    previewUrl: "https://github.com/abhishekkbxr/ecommerce.git",
   },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Dharti Automation Pvt. Ltd.",
+    description: "Explore the future of automation with Dharti Automation's portfolio website. As a leading automation company, we showcase our expertise in innovative solutions, cutting-edge technologies, and a commitment to transforming industries. Discover how we bring efficiency, precision, and advancement to the forefront of automation",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://dhartiautomation.com/",
+    previewUrl: "https://dhartiautomation.com/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Github Account",
+    description: "Please Vist My Github for more Projects",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/abhishekkbxr",
+    previewUrl: "https://github.com/abhishekkbxr",
   },
 ];
 

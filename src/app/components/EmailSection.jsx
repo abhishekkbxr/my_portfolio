@@ -4,6 +4,9 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import CallIcon from "@mui/icons-material/Call";
+import { Button } from "@mui/material";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -56,10 +59,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/abhishekkbxr">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://linkedin.com/in/abhishek-kumar-4b994922a">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -84,7 +87,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="abhi@google.com"
               />
             </div>
             <div className="mb-6">
@@ -125,6 +128,27 @@ const EmailSection = () => {
             </button>
           </form>
         )}
+        <div className=" w-full text-white items-center flex my-2 justify-center py-4">
+          <p className="font-bold font-sans text-lg">OR</p>
+        </div>
+
+        <div className="flex flex-wrap  ">
+          <button
+            href="https://wa.me/917462062717"
+            target="_blank"
+            className="bg-primary-500  hover:bg-primary-600 flex w-full items-center justify-center py-2.5 px-3 text-white font-medium my-2 rounded-lg "
+          >
+            <span>
+              <WhatsAppIcon /> <span className="mx-2">Whatapp</span>
+            </span>
+          </button>
+          <button
+            // type="submit"
+            className="bg-primary-500 hover:bg-primary-600 w-full text-white font-medium  py-2.5 px-3 rounded-lg my-2"
+          >
+            <CallIcon /> <span className="mx-2">+917462062717</span>
+          </button>
+        </div>
       </div>
     </section>
   );

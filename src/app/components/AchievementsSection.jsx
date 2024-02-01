@@ -69,11 +69,13 @@ const AchievementsSection = () => {
         </div>
       </div>
       <div className="bg-gray-700  h-16 items-center text-center flex text-white md:absolute -bottom-3 md:left-52 md:w-2/3 rounded-md">
-        <p className="md:w-64 md:font-bold md:text-xl pl-4  font-serif">
-          Coding Profile <ArrowRightIcon />
+        <p className="md:w-64 flex items-center justify-center md:font-bold text-sm md:text-xl md:pl-4  font-serif">
+          <span>Coding Profile</span>
+
+          <ArrowRightIcon />
         </p>
 
-        <div className="flex justify-evenly space-x-2 px-2   w-full">
+        <div className="flex justify-evenly space-x-2 px-2 w-full">
           <Link
             href="https://auth.geeksforgeeks.org/user/abhishekbxr203"
             className="w-10 h-8  "

@@ -48,7 +48,8 @@ const projectsData = [
   {
     id: 5,
     title: "Dharti Automation Pvt. Ltd.",
-    description: "Explore the future of automation with Dharti Automation's portfolio website. As a leading automation company, we showcase our expertise in innovative solutions, cutting-edge technologies, and a commitment to transforming industries. Discover how we bring efficiency, precision, and advancement to the forefront of automation",
+    description:
+      "Explore the future of automation with Dharti Automation's portfolio website. As a leading automation company, we showcase our expertise in innovative solutions, cutting-edge technologies, and a commitment to transforming industries. Discover how we bring efficiency, precision, and advancement to the forefront of automation",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://dhartiautomation.com/",
@@ -56,9 +57,20 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Github Account",
-    description: "Please Vist My Github for more Projects",
+    title: "Bulb India",
+    description:
+      "Illuminate your world with Bulb India. As a leading bulb company in India, we bring brilliance to your spaces. Explore our diverse range of energy-efficient and high-quality bulbs, brightening homes and businesses across the nation. Light up your life with Bulb India's commitment to innovation and brightness.",
     image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://bulbindia.in/",
+    previewUrl: "https://bulbindia.in/",
+  },
+  {
+    id: 7,
+    title: "Github Account",
+    description:
+      "Visit my GitHub for a curated collection of diverse projects and contributions, showcasing my proficiency in various technologies and coding expertise.",
+    image: "/images/projects/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/abhishekkbxr",
     previewUrl: "https://github.com/abhishekkbxr",

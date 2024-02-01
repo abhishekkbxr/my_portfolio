@@ -87,9 +87,9 @@ const EmailSection = () => {
               <WhatsAppIcon /> <span className="mx-2">Whatapp</span>
             </span>
           </button>
-          <button className="bg-primary-500 hover:bg-primary-600 w-full text-white font-medium  py-2.5 px-3 rounded-lg my-2">
+          {/* <button className="bg-primary-500 hover:bg-primary-600 w-full text-white font-medium  py-2.5 px-3 rounded-lg my-2">
             <CallIcon /> <span className="mx-2">+917462062717</span>
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

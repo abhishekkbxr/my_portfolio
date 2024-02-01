@@ -4,12 +4,12 @@ function Skill() {
   return (
     <section className=" body-font text-white py-16" id="skill">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Skills
+      Skills
       </h2>
       <div className=" container py-4 md:px-8 mx-auto    ">
         <div className="flex md:p-8  flex-wrap  ">
           <div className=" w-56  py-8 px-4 m-3  border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Languages:</h2>
+            <h2 className="font-semibold text-xl">Languages :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> C++/ STL
@@ -24,7 +24,7 @@ function Skill() {
           </div>
 
           <div className=" w-56  py-8 px-4 m-3 border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Frameworks:</h2>
+            <h2 className="font-semibold text-xl">Frameworks :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> React
@@ -42,7 +42,7 @@ function Skill() {
           </div>
 
           <div className=" w-56  py-8 px-4 m-3 border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Cloud/Database:</h2>
+            <h2 className="font-semibold text-xl">Database :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> MongoDb
@@ -56,7 +56,7 @@ function Skill() {
             </div>
           </div>
           <div className=" w-64  py-8 px-4 m-3 border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Other:</h2>
+            <h2 className="font-semibold text-xl">Other :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> Data Structures
@@ -86,7 +86,7 @@ function Skill() {
           </div>
 
           <div className=" w-[15rem]  py-8 px-4 m-3 border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Cloud:</h2>
+            <h2 className="font-semibold text-xl">Cloud :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> AWS
@@ -98,7 +98,7 @@ function Skill() {
           </div>
 
           <div className=" w-56  py-8 px-4 m-3 border border-gray-600 rounded-lg ">
-            <h2 className="font-semibold text-xl">Familiar With:</h2>
+            <h2 className="font-semibold text-xl">Familiar With :</h2>
             <div className="ml-6 mt-4 flex flex-col space-y-1 font-bold text-xl ">
               <span>
                 <ArrowRightIcon /> Unity

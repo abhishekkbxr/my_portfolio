@@ -7,7 +7,8 @@ export const metadata = {
   metadataBase: new URL("https://abhishekbxr.website"),
 
   title: {
-    default: "Abhishek Kumar - Experienced Software Engineer and Web Developer abhishekbxr",
+    default:
+      "Abhishek Kumar - Experienced Software Engineer and Web Developer abhishekbxr",
   },
 
   description:
@@ -78,6 +79,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>{children}</body>
     </html>
   );

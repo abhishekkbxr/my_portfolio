@@ -76,7 +76,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full  bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
               alt="abhishekbxr"
@@ -84,6 +84,21 @@ const HeroSection = () => {
               width={350}
               height={350}
             />
+
+            {/* <div className="w-fit absolute md:bottom-5 -bottom-6 md:right-12 right-8 animate-bounce ">
+              <Link
+                target="_blank"
+                className="text-white z-50"
+                href="https://linkedin.com/in/abhishek-kumar-4b994922a"
+              >
+                <Image
+                  src="/linkedin-icon.svg"
+                  width={40}
+                  height={40}
+                  alt="Linkedin Icon"
+                />
+              </Link>
+            </div> */}
           </div>
         </motion.div>
       </div>

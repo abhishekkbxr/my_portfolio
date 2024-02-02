@@ -91,9 +91,6 @@ function Skill() {
               <span>
                 <ArrowRightIcon /> AWS
               </span>
-              <span>
-                <ArrowRightIcon /> Microsoft Azure
-              </span>
             </div>
           </div>
 

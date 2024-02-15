@@ -78,7 +78,7 @@ const EmailSection = () => {
         </div>
 
         <div className="flex flex-wrap  ">
-          <button
+          <Link
             href="https://wa.me/917462062717"
             target="_blank"
             className="bg-primary-500  hover:bg-primary-600 flex w-full items-center justify-center py-2.5 px-3 text-white font-medium my-2 rounded-lg "
@@ -86,7 +86,7 @@ const EmailSection = () => {
             <span>
               <WhatsAppIcon /> <span className="mx-2">Whatapp</span>
             </span>
-          </button>
+          </Link>
           {/* <button className="bg-primary-500 hover:bg-primary-600 w-full text-white font-medium  py-2.5 px-3 rounded-lg my-2">
             <CallIcon /> <span className="mx-2">+917462062717</span>
           </button> */}

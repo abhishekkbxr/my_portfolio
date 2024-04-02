@@ -39,6 +39,9 @@ const HeroSection = () => {
             </div>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            <span className="text-black">
+            ecommerce website developer <br/>
+            </span>
             Passionate full-stack developer,Programmer and quick learner, adept
             at crafting cutting-edge solutions—committed to delivering
             excellence for your projects and eager to contribute my skills to

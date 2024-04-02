@@ -8,11 +8,11 @@ export const metadata = {
 
   title: {
     default:
-      "Abhishek Kumar - Experienced Software Engineer and Web Developer abhishekbxr",
+      "ecommerce website developer patna Bihar , software developer in patna bihar abhishekbxr Abhishek Kumar",
   },
 
   description:
-    "Abhishek Kumar - Experienced Software Engineer and Web Developer | Transforming Ideas into Seamless Digital Solutions. Expertise in Full-Stack Development, UI/UX Design, and Problem-Solving. Available for Freelance Projects.| abhishekbxr",
+    "Software Engineer and Web Developer in patna bihar | Transforming Ideas into Digital Solutions. Expert in ecommerce website developer, UI/UX Design, and Problem-Solving. Available for Freelance Projects.| abhishekbxr",
 
   generator: "Abhishek Kumar",
   applicationName: "Abhishek Portfolio Website",

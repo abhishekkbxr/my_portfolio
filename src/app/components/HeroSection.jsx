@@ -39,8 +39,11 @@ const HeroSection = () => {
             </div>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+            <span className="text-black mx-1">
+            ecommerce website developer in patna. 
+            </span>
             <span className="text-black">
-            ecommerce website developer in patna <br/>
+            Freelance website developer in patna. <br/>
             </span>
             Passionate full-stack developer,Programmer and quick learner, adept
             at crafting cutting-edge solutions—committed to delivering
